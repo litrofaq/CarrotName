@@ -119,7 +119,7 @@ public class PracticeParrotName
             //var ddd = driver.FindElement(emailInputLokator).GetAttribute("placeholder");
             Assert.True(driver.FindElement(emailInputLokator).GetAttribute("placeholder").Contains(placeholderText),
                 $"\tТекст подсказки в прототипе: '{buttonSendMeText}'\n" +
-                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(buttonSendMeLokator).Text}'");
+                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(emailInputLokator).GetAttribute("placeholder")}'");
             // Кнопка присутствует
             Assert.IsTrue(driver.FindElement(buttonSendMeLokator).Displayed,
                 "Кнопка 'ПОДОБРАТЬ ИМЯ' отсутствует");
@@ -271,7 +271,7 @@ public class PracticeParrotName
 
             Assert.True(driver.FindElement(emailInputLokator).GetAttribute("placeholder").Contains(placeholderText),
                 $"\tОжидался текст подсказки в поле ввода: '{buttonSendMeText}'\n" +
-                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(buttonSendMeLokator).Text}'");
+                $"Фактический текст подсказки в поле ввода: '{driver.FindElement(emailInputLokator).GetAttribute("placeholder")}'");
             // Кнопка появилась
             Assert.IsTrue(driver.FindElement(buttonSendMeLokator).Displayed,
                 "Кнопка 'ПОДОБРАТЬ ИМЯ' не появилась");
