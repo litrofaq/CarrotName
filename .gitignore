@@ -384,3 +384,31 @@ _UpgradeReport_Files/
 Thumbs.db
 Desktop.ini
 .DS_Store
+*/.idea/.idea.CarrotName.dir/.idea/vcs.xml
+*/.idea/.idea.CarrotName.dir/.idea/indexLayout.xml
+*/.idea/.idea.CarrotName.dir/.idea/encodings.xml
+*/.idea/.idea.CarrotName.dir/.idea/.gitignore
+
+**/.idea/.idea.CarrotName.dir/.idea/vcs.xml
+**/.idea/.idea.CarrotName.dir/.idea/indexLayout.xml
+**/.idea/.idea.CarrotName.dir/.idea/encodings.xml
+**/.idea/.idea.CarrotName.dir/.idea/.gitignore
+
+/.idea/.idea.CarrotName.dir/.idea/vcs.xml
+/.idea/.idea.CarrotName.dir/.idea/indexLayout.xml
+/.idea/.idea.CarrotName.dir/.idea/encodings.xml
+/.idea/.idea.CarrotName.dir/.idea/.gitignore
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Rider ignored files
+/contentModel.xml
+/projectSettingsUpdater.xml
+/modules.xml
+/.idea.CarrotName.iml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
